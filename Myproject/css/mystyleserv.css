@@ -1,0 +1,13 @@
+.navbar{
+	display: block;
+	width: 100%;
+	background: #ededed; /* Old browsers */
+	background: linear-gradient(to bottom, #ededed 1%,#c5c5c5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */	color: whitesmoke;
+	font-family: "Arial Narrow", sans-serif;
+	font-size:0.9em;
+	color: #000000;
+}
+@media only screen and (max-width: 550px) {
+	.navbar {
+		display: none;
+	}}

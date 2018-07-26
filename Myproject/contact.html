@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cariad Accounting company</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+	<div id="site">
+		<div id="siteWrap">
+			<header class="homeHeader">
+				<a href="#" class="burgerMenu"><i class="fas fa-bars"></i></a>
+					<div class="headerHero">
+						<div class="logoWrap">
+							<a class="siteLogo" href="home.html">
+								<img src="images/logonobg.jpg" alt="DanilLogo">
+							</a>
+						</div>
+						<div class="headerImage">
+							<!-- <img src="images/beatriz-perez-moya-111685-unsplash.jpg" alt="homepage" width="750px" height="120px"> -->
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<nav class="mainNav">
+						<span class="mainMenu" id="1"><a href="home.html">Начало</a></span>
+						<span class="mainMenu" id="2"><a href="about.html">За мен</a></span>
+						<span class="mainMenu" id="s"><a href="services.html">Услуги</a>
+							<ul id="ss">
+								<li><a href="accountul.html" class="secMenu">Счетоводство на юридически лица</a></li>
+								<li><a href="accountfl.html" class="secMenu">Счетоводство на физически лица</a></li>
+								<li><a href="persfinans.html" class="secMenu">Персонални финанси</a></li>
+								<li><a href="portfoliomang.html" class="secMenu">Портфейл мениджмънт</a></li>
+								<li><a href="web.html" class="secMenu">Web програмиране</a></li>
+							</ul>
+						</span>
+						<span class="mainMenu" id="4"><a href="sites.html">Връзки</a></span>
+						<span class="mainMenu active" id="5"><a href="contact.html">Контакти</a></span>
+						<span class="mainMenu" id="bl"><a href="myblog.html">Блог</a>
+							<ul id="bbl">
+								<li><a href="accountul.html" class="secMenu">Искрено и лично</a></li>
+								<li><a href="accountfl.html" class="secMenu">Строго Служебно</a></li>
+							</ul>
+						</span>
+					</nav>					
+			</header>
+			<main>
+				<aside class="menu">
+					<ul class="littleMenu nav nav-pills nav-stacked">
+						<li><a href="home.html">Начало</a></li>
+						<li><a href="about.html">За мен</a></li>
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="sites.html">Връзки</a></li>
+						<li><a href="contact.html">Контакти</a></li>
+						<li><a href="myblog.html">Блог</a></li>
+					</ul>
+					<ul class="nav nav-pills nav-stacked navbar">
+						<li><a href="accountul.html">Счетоводство на юридически лица</a></li>
+						<li><a href="accountfl.html">Счетоводство на физически лица</a></li>
+						<li><a href="persfinans.html">Персонални финанси</a></li>
+						<li><a href="portfoliomang.html">Портфейл мениджмънт</a></li>
+						<li><a href="web.html">Web програмиране</a></li>
+					</ul>
+				</aside>
+				<section class="contacts main">
+					<div>
+						<h2 class="hCont">За контакти с мен</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-6 formContact">
+							<form id="contactForm">
+								<div class="form-group">
+									<label for="inputEmail3" class="control-label">Email</label>
+									<input type="email" name="email" class="form-control"  placeholder="Email">
+								</div>
+								<div class="form-group">
+									<label class="control-label">Име*</label>
+									<input type="text" name="name" class="form-control"  placeholder="Име">
+								</div>
+								<div class="form-group">
+									<label class="control-label">Компания</label>
+									<input type="text" name="firm" class="form-control" placeholder="Име  на фирма">
+								</div>
+								<div class="form-group">
+									<label class="control-label">Телефон за връзка*</label>
+									<input type="number" name="phone" class="form-control" id="inputEmail3" placeholder="Телефон">
+								</div>
+								<div class="form-group">
+									<label class="control-label">Вашето съобшение*</label>
+									<textarea class="form-control" name="message" rows="10" placeholder="Напишете вашето съобщение тук"></textarea>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-default">Изпрати</button>
+								</div>
+								<p class="note">Полетата маркирани със * за задължителни за попълване</p>
+								<div id="dialog" title="Съобщение за грешка">
+									<p>Моля въведете Вашето съобщение</p>
+								</div>
+
+							</form>
+						</div>
+						<div class="col-md-6 formMap">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2957.948139365344!2d24.731284515224083!3d42.1513965792015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14acd1c16a96a605%3A0x1e3d806b6e0a3dde!2z0YPQuy4g4oCe0K_QvdC60L4g0KHQsNC60YrQt9C-0LLigJwgMzksIDQwMDIg0JzQsNGA0LDRiNCwLCDQn9C70L7QstC00LjQsg!5e0!3m2!1sbg!2sbg!4v1530271672553" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<p>Град Пловдив, ул. Янко Сакъзов № 39, ап. 6</p>
+							<p>Телефон за връзка: 0889890918</p>
+						</div>
+					</div>
+				</section>
+						<div class="clearfix"></div>
+			</main>
+			<hr class="footerLine">
+			<footer>Created by DNick &copy;</footer>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min"><\/script>')</script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script
+			src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,360 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	/*background: rgba(0, 0, 0, 0.5);*/
+	color: #323232;
+}
+
+a{
+	text-decoration: none;
+}
+
+#site{
+	background: rgba(180, 180, 180, 0.7);
+}
+#siteWrap{
+	width: 78.125%; /*1000px/1280px*/
+	margin: 0 auto;
+	border: 0px solid green;
+}
+.clearfix{
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;	
+}
+
+/*homeHeader*/
+.siteHeader{
+	position: relative;
+}
+.logoWrap{
+	width: 24%; /*200px*/
+	height: 120px;
+	float: left;
+}
+/*.siteLogo{
+	background: url("../images/logonobg.jpg");
+	background-size: cover;
+}*/
+.headerImage{
+	float: right;
+	width: 76%; /*740px/1000px*/
+	height: 120px;
+	background: url("../images/beatriz-perez-moya-111685-unsplash111.jpg") no-repeat;
+	background-size: 100% 120px;
+	background-blend-mode:color
+}
+.burgerMenu{
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.mainNav{
+	text-align: center;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ededed+1,c5c5c5+100 */
+	background: #ededed; /* Old browsers */
+	background: -moz-linear-gradient(top, #ededed 1%, #c5c5c5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ededed 1%,#c5c5c5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ededed 1%,#c5c5c5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#c5c5c5',GradientType=0 ); /* IE6-9 */
+	box-shadow: 0px 4px 8px	rgba(0, 0, 0, .4);
+	height: 46px;
+	margin-bottom: 15px;
+	/*position: fixed;*/
+	}
+.littleMenu{
+	display: none;
+	padding-top:25px;
+	float: left;
+	text-decoration: none;
+	list-style: none;
+}
+.mainMenu{
+	display: inline-block;
+	margin: 0;
+	text-decoration: none;
+	font-size: 0.75em;
+	width: 10%;
+	padding: 12px 10px;
+	border: 1px solid #6d6d6d;
+	border-radius: 5px;
+}
+.active{
+	background: #f9f9f9;
+}
+.mainMenu a{
+	display: block;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #000000;
+
+}
+.secMenu{
+	display: block;
+	padding: 12px 10px;
+	border: 1px solid #6d6d6d;
+	border-radius: 5px;
+}
+
+.mainMenu:hover{
+	background: #f9f9f9; /* Old browsers */
+	background: linear-gradient(to bottom, #f9f9f9 1%,#5e5e5e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#s{
+	position: relative;
+}
+.mainNav ul{
+	display: none;
+	position: absolute;
+	top: 46px;
+	right: -33px;
+	width: 160%;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-size: 0.85em;
+	color: #000000;
+	z-index: 10;
+}
+.mainNav ul li{
+	background: #ededed; /* Old browsers */
+	background: linear-gradient(to bottom, #ededed 1%,#c5c5c5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	list-style: none;
+	margin-top: 1px;
+	border-radius: 2px	
+}
+#s:hover ul{
+	display: block;
+}
+#bl:hover ul{
+	display: block;
+}
+#b1{
+	position: relative;
+	width: 100%;
+	height: 43px;
+}
+#bbl{
+	display: none;
+	position: absolute;
+	width: 15%;
+	top: 166px;
+	right: 280px;
+}
+.navbar{
+	display: none;
+	width: 100%;
+	background: #ededed; /* Old browsers */
+	background: linear-gradient(to bottom, #ededed 1%,#c5c5c5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */	color: whitesmoke;
+	font-family: "Arial Narrow", sans-serif;
+	font-size:0.9em;
+	color: #000000;
+}
+
+.heads{
+	font-style: normal;
+	text-align: center;
+}
+.heads h2{
+	margin: 0 auto;
+	margin-bottom: 50px;
+	font-size: 2em;
+}
+.head{
+	margin: 0 auto;
+	font-family: 'Pinyon Script', cursive;;
+	font-size: 5em;
+}
+.menu{
+	float: left;
+    width: 20%;
+}
+.main{
+	float: right;
+	width: 80%;
+	padding-left:10px;
+	}
+.ulImage{
+	width: 90%;
+	height: 200px;
+	margin: 4%;
+	background: url("../images/background-balance-business-583846.jpg") no-repeat;
+	background-size: cover;
+	}
+.pfImage{
+	background: url("../images/achievement-adult-book.jpg") no-repeat;
+	background-size: cover;
+	
+	}
+.flImage{
+	background: url("../images/accounting-bankbook-business.jpg");
+	background-size: cover;
+	}
+.pmImage{
+	background: url("../images/pexels-photo-938963.jpeg");
+	background-size: cover;
+}
+.webImage{
+	background: url("../images/pexels-photo-114907.jpeg");
+	background-size: cover;
+}
+
+.servicesHead{
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.mainServ{
+	width: 97%
+}
+.services{
+	opacity: 0.7;
+}
+.services:hover{
+    transform: translateY(-12px);
+    box-shadow: 10px 4px 8px rgba(109, 109, 109, 0.9);
+}
+.serviceTitle{
+	font-size: 0.8em;
+}
+.serviceTitle p{
+	text-align: justify;
+}
+.mainLinks{
+	width: 80%;
+	float: right;
+}
+.link img:hover{
+    transform: translateY(-12px);
+    box-shadow: 10px 4px 8px rgba(109, 109, 109, 0.9);
+}
+.linkImage{
+	width: 90%;
+	height: 175px;
+	margin-bottom: 40px;
+}
+
+#dialog{
+	display: none;
+}
+.contacts{
+	float: right;
+	width: 80%;
+}
+.hCont{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom:15px;
+}
+.formContact{
+	font-size: 0.7em ;
+}
+.formMap{
+	padding-top: 10px;
+}
+.note{
+	color: red;
+	font-size: 0.75em;
+	font-style: oblique;
+}
+
+
+@media only screen and (max-width: 1100px){
+	/*.mainNav ul{*/
+		/*right: 380px;*/
+	/*}*/
+}
+
+@media only screen and (max-width: 1000px){
+	#siteWrap{
+		width: 85%;
+	}
+	.headerImage{
+		width: 71%;
+	}
+
+@media only screen and (max-width: 850px){
+	#siteWrap{
+		width: 100%;
+	}
+	.headerImage{
+		width: 71%;
+	}
+	/*.mainNav ul{*/
+		/*right: 405px;*/
+	/*}*/
+}
+
+	@media only screen and (max-width: 750px){
+		.headerImage{
+			width: 67%;
+		}
+		.mainNav{
+			font-size: 0.75em;
+		}
+		.mainNav ul{
+			font-size: 0.75em;
+		}
+		.navbarLink{
+			font-size: 0.8em;
+		}
+	}
+	}
+	@media only screen and (max-width: 710px) {
+		.mainNav {
+			height: 100%;
+		}
+		/*.mainNav ul{*/
+			/*top: 60px;*/
+		/*}*/
+		#bb1{
+			top: 184px;
+			right: 75px;
+		}
+		.headerImage {
+			display: none;
+		}
+		.logoWrap {
+			margin: 0 auto;
+			float: none;
+		}
+	}
+	@media only screen and (max-width: 550px) {
+		.headerHero{
+			display: none;
+		}
+		.mainNav{
+			display: none;
+		}
+		.burgerMenu{
+			display: block;
+			top:15px;
+			left:15px;
+		}
+		#s:hover ul{
+			display: none;
+		}
+		#bl:hover ul{
+			display: none;
+		}
+		.servicesImage img{
+			width: 100%;
+		}
+		.main{
+			width: 70%;
+			padding-right: 50px;
+		}
+		.head{
+			font-size: 3.5em;
+		}
+
+	}
+
+
